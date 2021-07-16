@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:description" content="Projeto proposto no bootcamp HTML Web Developer da DIO.">
+        <title>Bootstrap - Testes</title>
+
+        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+        <nav class="navbar navbar-expand-sm navbar-light logo-pic">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo-globallabs.png" width="220" height="80" alt="logo global labs">
+            </a>
+
+            <div class="collapse navbar-collapse menu-items">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!-- <a class="nav-link active" href="#">Quem Somos</a> -->
+                        <a class="nav-link" href="#quem-somos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quem-somos">
+            <!--<div class="container quemsomos text-center margin">
+                <p>Teste</p>
+            </div>-->
+            <div class="container-fluid quemsomos text-center margin">
+                <h3 class="margin">Quem Somos</h3>
+                <img src="img/leipzig-people-shaking-hands.jpg" class="rounded-circle" width="370" alt="pessoas apertendo as mãos">
+                <p class="quemsomos-txt" style="margin-top:20px">Somos um time comprometido com os resultados.</p>
+            </div>
+        </section>
+
+        <selection id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h3 class="margin">PARCEIROS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/partners/cat.png" width="100%" alt="logo caterpillar">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/partners/dio.png" width="100%" alt="logo digital innovation one">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/partners/kodak.png" width="100%" alt="logo kodak">
+                        </div>
+                        <!-- <div class="col-lg-4">
+                            <img src="img/logo-globallabs.png" width="100%" alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </selection>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">SERVIÇOS</h3>
+                <div class="container">
+                    <div class="row services-cards">
+                        <div class="col-lg-4">
+                            <img src="img/pexels-monoar-rahman-109371.jpg" width="100%" alt="serviço 1">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/pexels-photomix-company-887751.jpg" width="100%" alt="serviço 2">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit atque error et autem cumque numquam quos laborum repudiandae nobis.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/pexels-pixabay-270348.jpg" width="100%" alt="serviço 3">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit atque error et autem cumque numquam quos laborum repudiandae nobis, laudantium eum ducimus unde quam tempore voluptatem voluptate quaerat, voluptatibus corporis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center bg-footer">
+            <p>Desenvolvido por Marcos Zanetti</p>
+            <p>Original de Rafael Galleani</p>
+        </footer>
+
+    </body>
+</html>
+

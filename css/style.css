@@ -1,0 +1,61 @@
+body {
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: steelblue;
+    justify-content: space-between;
+}
+
+.menu-items {
+    font-size: 23px;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.quemsomos {
+    background-color: powderblue;
+    color:royalblue;
+}
+
+.margin {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* padding: 50px; */
+}
+
+.parceiros {
+    background-color: sandybrown;
+}
+
+.services-cards .col-lg-4 * {
+    height: 50%;
+}
+
+.services-cards .col-lg-4 img {
+    margin-bottom: 10px;
+}
+
+
+.bg-footer {
+    background-color: springgreen;
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+/* responsive */
+@media (max-width:575px) {
+    .navbar {
+        justify-content: center;
+    }
+    .container-fluid img {
+        width: 100%;
+    }
+    .quemsomos-txt {
+        font-size: 1rem;
+    }
+    .col-lg-4 {
+        margin-bottom: 10px;
+    }
+}
